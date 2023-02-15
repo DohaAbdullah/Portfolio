@@ -1,24 +1,27 @@
-* {
-  padding: 0;
-  margin: 40;
-}
-
 body {
   background-color: #1d1f21;
   margin: 0 auto;
   padding: 8em;
-  font-family: "Cormorant Garamond", serif;
-  font-family: "Lora", serif;
+  font-family: Oxygen, monospace;
 }
 
 p {
   color: #eee;
-  font-size: 1.2em;
+  font-size: 1.1em;
+}
+
+li {
+  color: #eee;
+  font-size: 0.9em;
+}
+
+.container {
+  min-height: max-content;
 }
 
 .name {
   color: #2bbc8a;
-  font-size: 2.1em;
+  font-size: 2em;
   margin: 0;
 }
 
@@ -29,5 +32,56 @@ p {
 
 .about-me-title {
   color: #2bbc8a;
-  font-size: 2.1em;
+  font-size: 2em;
+}
+
+.table {
+  width: 100%;
+}
+
+.table-title {
+  color: #eee;
+}
+
+.td {
+  /* float: left; */
+  width: 39.33%;
+}
+
+.about-list {
+  padding-left: 15px;
+}
+
+.blogs {
+  margin-top: 30px;
+}
+
+.blog-title {
+  color: #2bbc8a;
+  font-size: 1.5em;
+}
+
+.discription {
+  font-size: 1em;
+  color: #c9cacc;
+}
+
+.blog-list {
+  margin: 10px;
+  font-size: 1.1em;
+}
+
+.blog-link {
+  color: #c9cacc;
+}
+
+.blog-link:hover {
+  color: #2bbc8a;
+}
+.projects {
+  margin-top: 30px;
+}
+.projects-title {
+  color: #2bbc8a;
+  font-size: 1.5em;
 }

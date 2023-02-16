@@ -212,7 +212,119 @@ function Blogs() {
             className="blog-link"
             href="https://mawuen.github.io/2017/03/12/git-tips/"
           >
-          Git Tips
+            Git Tips
+          </a>
+        </li>
+        <li className="blog-list">
+          <time dateTime="Sun, Feb 12 2017">Sun, Feb 12 2017</time>{" "}
+          <a
+            className="blog-link"
+            href="https://mawuen.github.io/2017/02/12/promote-your-opensource-project/"
+          >
+            Promote your opensource project
+          </a>
+        </li>
+        <li className="blog-list">
+          <time dateTime="Sun, Feb 12 2017">Sun, Feb 12 2017</time>{" "}
+          <a
+            className="blog-link"
+            href="https://mawuen.github.io/2017/02/12/comment-promouvoir-son-projet-opensource/"
+          >
+            Comment promouvoir son projet opensource
+          </a>
+        </li>
+        <li className="blog-list">
+          <time dateTime="Mon, Jan 02 2017">Mon, Jan 02 2017</time>{" "}
+          <a
+            className="blog-link"
+            href="https://mawuen.github.io/2017/01/02/postgresql-cheatsheet/"
+          >
+            PostgreSQL cheatsheet
+          </a>
+        </li>
+        <li className="blog-list">
+          <time dateTime="Fri, Dec 30 2016">Fri, Dec 30 2016</time>{" "}
+          <a
+            className="blog-link"
+            href="https://mawuen.github.io/2016/12/30/sql-cheat-sheet/"
+          >
+            SQL cheat sheet
+          </a>
+        </li>
+        <li className="blog-list">
+          <time dateTime="Thu, Nov 10 2016">Thu, Nov 10 2016</time>{" "}
+          <a
+            className="blog-link"
+            href="https://mawuen.github.io/2016/11/10/make-python-faster/"
+          >
+            Pypy—Make Python faster!
+          </a>
+        </li>
+        <li className="blog-list">
+          <time dateTime="Sat, Jun 25 2016">Sat, Jun 25 2016</time>{" "}
+          <a
+            className="blog-link"
+            href="https://mawuen.github.io/2016/06/25/redis-cheat-sheet/"
+          >
+            Redis cheat sheet
+          </a>
+        </li>
+        <li className="blog-list">
+          <time dateTime="Wed, Dec 02 2015">Wed, Dec 02 2015</time>{" "}
+          <a
+            className="blog-link"
+            href="https://mawuen.github.io/2015/12/02/log-cheatsheet/"
+          >
+            Log cheatsheet
+          </a>
+        </li>
+        <li className="blog-list">
+          <time dateTime="Sun, Aug 02 2015">Sun, Aug 02 2015</time>{" "}
+          <a
+            className="blog-link"
+            href="https://mawuen.github.io/2015/08/02/phpspec-cheatsheet/"
+          >
+            Phpspec cheatsheet
+          </a>
+        </li>
+        <li className="blog-list">
+          <time dateTime="Thu, Mar 12 2015">Thu, Mar 12 2015</time>{" "}
+          <a
+            className="blog-link"
+            href="https://mawuen.github.io/2015/03/12/how-to-install-latest-php-version-on-debian/"
+            
+          >
+            How to install Latest PHP version on Debian/Linux
+          </a>
+        </li>
+        <li className="blog-list">
+          <time dateTime="Thu, Feb 05 2015">Thu, Feb 05 2015</time>{" "}
+          <a
+            className="blog-link"
+            href="https://mawuen.github.io/2015/02/05/haskell-extension/"
+            
+          >
+            A tour of IHaskell extensions
+          </a>
+        </li>
+        <li className="blog-list">
+          <time dateTime="Tue, Dec 02 2014">Tue, Dec 02 2014</time>{" "}
+          <a
+            className="blog-link"
+            href="https://mawuen.github.io/2015/02/05/haskell-extension/"
+            
+          >
+            Symfony's cheat sheet
+          </a>
+        </li>
+        <li className="blog-list">
+          <time dateTime="Thu, Oct 02 2014">Thu, Oct 02 2014</time>{" "}
+          <a
+            className="blog-link"
+            href="https://mawuen.github.io/2014/10/02/git-cheatsheet/"
+            
+          >
+            Git cheatsheet
           </a>
         </li>
       </ul>

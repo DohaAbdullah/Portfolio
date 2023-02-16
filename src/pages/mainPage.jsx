@@ -1,4 +1,7 @@
-import IconGithub from "../icons/iconGithub";
+import { Link } from "react-router-dom";
+import GithubIcon from "../icons/githubIcon";
+import TwitterIcon from "../icons/iconTwitter";
+import LinkedInIcon from "../icons/linkedInIcon";
 
 function MainPage() {
   return (
@@ -11,8 +14,19 @@ function MainPage() {
           My name is Mawuena M Kodzo, I am from Togo I’m a full stack software
           engineer specializing in designing and/or building exceptional digital
           experiences. I’m studying for my DUT Exams, and to take Azure and
-          Cisco CCNA certs. I'm working currently on SmartBin. You can reach me
-          at contact@mawuena.me. I am glad to share and communicate with you.
+          Cisco CCNA certs. I'm working currently on SmartBin. You can find me
+          on
+          <Link to="https://github.com/devnullone">
+            <GithubIcon />
+          </Link>{" "}
+          ,
+          <Link to="https://github.com/devnullone">
+            <LinkedInIcon />
+          </Link>{" "}
+          or on
+          <Link to="https://github.com/devnullone">
+            <TwitterIcon />
+          </Link>
         </p>
         <p>
           I really enjoy coumputer stuff, building, deploy app and maintain
@@ -24,7 +38,8 @@ function MainPage() {
         </p>
         <p>
           I'm also posting my blog posts on DEV.to, so you can find them there
-          as well.
+          as well. You can reach me at contact@mawuena.me. I am glad to share
+          and communicate with you.
         </p>
         <table className="table">
           <thead>
@@ -157,17 +172,20 @@ function MainPage() {
               </a>
             </li>
           </ul>
-          <a
-                className="blog-link"
-                href="/blogs"
-              >
-                Show More blogs ...
-              </a>
+          <a className="blog-link" href="/blogs">
+            Show More blogs ...
+          </a>
         </div>
 
         <div className="projects">
           <p className="projects-title">Projects</p>
-          <p className="discription">You can find all my projects here <IconGithub  /></p>
+
+          <div className="github-icon-container">
+            <p className="discription">You can find all my projects here</p>
+            <Link to="https://github.com/devnullone">
+              <GithubIcon />
+            </Link>
+          </div>
         </div>
       </div>
     </div>

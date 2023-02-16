@@ -1,7 +1,7 @@
 // icon:heart-pulse | Bootstrap https://icons.getbootstrap.com/ | Bootstrap
 import * as React from "react";
 
-function IconHeartPulse(props) {
+function HeartPulseIcon(props) {
   return (
     <svg
       fill="currentColor"
@@ -18,4 +18,4 @@ function IconHeartPulse(props) {
   );
 }
 
-export default IconHeartPulse;
+export default HeartPulseIcon;

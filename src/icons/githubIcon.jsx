@@ -1,11 +1,12 @@
 import React from "react";
 
-function IconGithub() {
+function GithubIcon(props) {
   return (
     <svg
+    className="githubicon"
       xmlns="http://www.w3.org/2000/svg"
-      width="30"
-      height="30"
+      width="20"
+      height="15"
       viewBox="0 0 256 256"
     >
       <path
@@ -22,4 +23,4 @@ function IconGithub() {
   );
 }
 
-export default IconGithub;
+export default GithubIcon;

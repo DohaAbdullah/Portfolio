@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
 import GithubIcon from "../icons/githubIcon";
-import TwitterIcon from "../icons/iconTwitter";
+import TwitterIcon from "../icons/twitterIcon";
 import LinkedInIcon from "../icons/linkedInIcon";
+import HeartPulseIcon from "../icons/heartPulseIcon";
+import FlameIcon from "../icons/flameIcon";
+import LampIcon from "../icons/lamp";
 
 function MainPage() {
   return (
@@ -24,7 +27,7 @@ function MainPage() {
             <LinkedInIcon />
           </Link>{" "}
           or on
-          <Link to="https://github.com/devnullone">
+          <Link to="https://twitter.com/devnullone">
             <TwitterIcon />
           </Link>
         </p>
@@ -44,14 +47,23 @@ function MainPage() {
         <table className="table">
           <thead>
             <tr>
-              <td>
-                <p className="table-title"> Technologies I’ve been working</p>
+              <td className="table-data">
+                <div className="table-data">
+                  <HeartPulseIcon />
+                  <p className="table-title"> Life so far ...</p>
+                </div>
               </td>
               <td>
-                <p className="table-title"> Technologies I’ve been working</p>
+                <div className="table-data">
+                  <FlameIcon />
+                  <p className="table-title"> Passionate about ...</p>
+                </div>
               </td>
               <td>
-                <p className="table-title"> Technologies I’ve been working</p>
+                <div className="table-data">
+                  <LampIcon />
+                  <p className="table-title"> Thinking about ...</p>
+                </div>
               </td>
             </tr>
           </thead>
@@ -59,32 +71,29 @@ function MainPage() {
             <tr>
               <td className="column">
                 <ul className="about-list">
-                  <li>MapBox Gl</li>
-                  <li>Arduino</li>
-                  <li>Python</li>
-                  <li>MQTT</li>
+                  <li>Breathing since 1997</li>
+                  <li>A Python developero</li>
+                  <li>DevOps enginner </li>
+                  <li>A problem solver </li>
                   <li>Vuejs</li>
-                  <li>WordPress</li>
                 </ul>
               </td>
               <td className="column">
                 <ul className="about-list">
-                  <li>MapBox Gl</li>
-                  <li>Arduino</li>
-                  <li>Python</li>
-                  <li>MQTT</li>
-                  <li>Vuejs</li>
-                  <li>WordPress</li>
+                  <li>Traveling</li>
+                  <li>Food</li>
+                  <li>Music</li>
+                  <li>Nature</li>
+                  <li>coding</li>
                 </ul>
               </td>
               <td className="column">
                 <ul className="about-list">
-                  <li>MapBox Gl</li>
-                  <li>Arduino</li>
+                  <li>Discovering new places</li>
+                  <li>Finding new home</li>
                   <li>Python</li>
                   <li>MQTT</li>
                   <li>Vuejs</li>
-                  <li>WordPress</li>
                 </ul>
               </td>
             </tr>

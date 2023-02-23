@@ -1,3 +1,6 @@
+import blogsData from "../blogsData.json";
+
+
 function Blogs() {
   return (
     <div>
@@ -327,6 +330,7 @@ function Blogs() {
             Git cheatsheet
           </a>
         </li>
+
       </ul>
     </div>
   );

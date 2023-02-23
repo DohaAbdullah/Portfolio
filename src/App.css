@@ -12,7 +12,7 @@ p {
 
 li {
   color: #eee;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 .container {
@@ -41,6 +41,7 @@ li {
 
 .table-title {
   color: #eee;
+  margin: 0;
 }
 
 .td {
@@ -90,8 +91,18 @@ li {
   display: flex;
 }
 
-.githubicon , .TwitterIcon , .linkedinIcon {
+.githubicon,
+.TwitterIcon,
+.linkedinIcon {
   padding-top: 17px;
   padding-left: 5px;
-  
+}
+
+.table-data {
+  display: flex;
+}
+
+.icon-style {
+  margin-right: 5px;
+  margin-top: 2px;
 }

@@ -5,8 +5,18 @@ import LinkedInIcon from "../icons/linkedInIcon";
 import HeartPulseIcon from "../icons/heartPulseIcon";
 import FlameIcon from "../icons/flameIcon";
 import LampIcon from "../icons/lamp";
+import projects from "../projectsdata.json";
+import Img from "../common/img";
+import Anchor from "../common/a";
 
 function MainPage() {
+  console.log(projects);
+  console.log(projects[0].technologies[0]);
+
+
+  // const data = JSON.parse(projects);
+  // console.log(data);
+
   return (
     <div className="container">
       <p className="name">MAWUENA M KODZO</p>
@@ -195,6 +205,24 @@ function MainPage() {
               <GithubIcon />
             </Link>
           </div>
+          {projects.map((project) => {
+            return (
+              <article className="article" key={project.id}>
+                <figure className="left">
+                  <Anchor href={project.href}>
+                    <Img src={project.src} alt={project.alt} />
+                  </Anchor>
+                </figure>
+                <section>
+                  <h2>{project.title}</h2>{" "}
+                  <p className="project-description">{project.description}</p>
+                  {project.technologies.map((tech, index) => {
+                    return <Anchor key={index}>{tech}</Anchor>
+                  })}
+                </section>
+              </article>
+            );
+          })}
         </div>
       </div>
     </div>

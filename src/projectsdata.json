@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "src": "images/194555927-9c107aef-3682-4af5-b712-fe9478930b4e.png",
+    "href": "https://medirepo.vercel.app/patients/login",
+    "alt": "mediarepo-pic",
+    "title": "Media Repo",
+    "description": "helps hospitals with Daily Medical Reports - for COVID-19 patients with restricted visits ",
+    "technologies": ["MERN Stack"]
+  },
+  {
+    "id": 2,
+    "src": "images/bedudo.png",
+    "href": "https://github.com/devnullone/didobin",
+    "alt": "bedudo-pic",
+    "title": "Bedoudo",
+    "description": "La gestion des déchets et le recyclage sont difficiles. Bedudo digitalise l'écosystème de gestion des déchets",
+    "technologies": ["CodeIgniter 4", "Boostrap 5", "mariadb", "mapbox API", "HiveMQ"]
+  },
+  {
+    "id": 3,
+    "src": "images/pakriti.png",
+    "href": "https://github.com/NiksConsulting/prakriti",
+    "alt": "pakriti",
+    "title": "Pakriti",
+    "description": "A Holistic simple online avatar generator. I made it to easily help people to make avatars look like them and show up on their social media profiles.",
+    "technologies": ["Flask", "JQuery", "Tailwindwss"]
+  }
+]

@@ -3,6 +3,7 @@ body {
   margin: 0 auto;
   padding: 8em;
   font-family: Oxygen, monospace;
+  color: #eee;
 }
 
 p {
@@ -89,6 +90,7 @@ li {
 
 .github-icon-container {
   display: flex;
+  width: 100%;
 }
 
 .githubicon,
@@ -105,4 +107,19 @@ li {
 .icon-style {
   margin-right: 5px;
   margin-top: 2px;
+}
+
+.article {
+  display: flex;
+  width: 100%;
+}
+
+.project-image {
+  width: 300px;
+  height: 200px;
+}
+
+.project-description {
+  color: #c9cacc;
+  font-size: 1em;
 }

@@ -1,4 +1,8 @@
 import blogsData from "../blogsData.json";
+import Li from "../common/li";
+import Anchor from "../common/a";
+import Time from "../common/time";
+
 
 
 function Blogs() {
@@ -295,7 +299,6 @@ function Blogs() {
           <a
             className="blog-link"
             href="https://mawuen.github.io/2015/03/12/how-to-install-latest-php-version-on-debian/"
-            
           >
             How to install Latest PHP version on Debian/Linux
           </a>
@@ -305,7 +308,6 @@ function Blogs() {
           <a
             className="blog-link"
             href="https://mawuen.github.io/2015/02/05/haskell-extension/"
-            
           >
             A tour of IHaskell extensions
           </a>
@@ -315,7 +317,6 @@ function Blogs() {
           <a
             className="blog-link"
             href="https://mawuen.github.io/2015/02/05/haskell-extension/"
-            
           >
             Symfony's cheat sheet
           </a>
@@ -325,15 +326,22 @@ function Blogs() {
           <a
             className="blog-link"
             href="https://mawuen.github.io/2014/10/02/git-cheatsheet/"
-            
           >
             Git cheatsheet
           </a>
         </li>
 
+        {blogsData.map((blog, index) => {
+          return <Li key={index}>
+            <Time>{blog.dateTime}</Time>
+            <Anchor href={blog.href} >{blog.blogTitle}</Anchor>
+          </Li>;
+        })}
       </ul>
     </div>
   );
 }
+
+
 
 export default Blogs;

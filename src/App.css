@@ -27,7 +27,7 @@ li {
 }
 
 .title {
-  color: #c9cacc;
+  color: #666;
   font-size: 1.2em;
 }
 
@@ -122,4 +122,58 @@ li {
 .project-description {
   color: #c9cacc;
   font-size: 1em;
+}
+
+.data-section {
+  padding-top: 30px;
+}
+
+.tech-link {
+  color: #eee;
+}
+
+.certificates-container {
+  display: flex;
+  width: 100%;
+  padding: 0 50px;
+}
+
+.figure-certificates {
+  display: flex;
+  margin: 10px;
+}
+
+.certificate-image {
+  width: 200px;
+  height: 180px;
+}
+
+.flex {
+  display: flex;
+}
+
+.footer {
+  color: #666;
+  display: flex;
+  width: 100%;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.left {
+  align-self: flex-start;
+  font-size: 0.9em;
+}
+
+.right {
+  align-self: flex-end;
+}
+
+.footer-link {
+  text-decoration: underline;
+  color: #666;
+  font-size: 0.9em;
 }

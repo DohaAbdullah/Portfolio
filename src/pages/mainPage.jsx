@@ -5,18 +5,12 @@ import LinkedInIcon from "../icons/linkedInIcon";
 import HeartPulseIcon from "../icons/heartPulseIcon";
 import FlameIcon from "../icons/flameIcon";
 import LampIcon from "../icons/lamp";
-import projects from "../projectsdata.json";
+import Projects from "../projectsdata.json";
 import Img from "../common/img";
 import Anchor from "../common/a";
+import Certificates from "../certificatesData.json";
 
 function MainPage() {
-  console.log(projects);
-  console.log(projects[0].technologies[0]);
-
-
-  // const data = JSON.parse(projects);
-  // console.log(data);
-
   return (
     <div className="container">
       <p className="name">MAWUENA M KODZO</p>
@@ -205,7 +199,7 @@ function MainPage() {
               <GithubIcon />
             </Link>
           </div>
-          {projects.map((project) => {
+          {Projects.map((project) => {
             return (
               <article className="article" key={project.id}>
                 <figure className="left">
@@ -213,16 +207,58 @@ function MainPage() {
                     <Img src={project.src} alt={project.alt} />
                   </Anchor>
                 </figure>
-                <section>
+                <section className="data-section">
                   <h2>{project.title}</h2>{" "}
                   <p className="project-description">{project.description}</p>
                   {project.technologies.map((tech, index) => {
-                    return <Anchor key={index}>{tech}</Anchor>
+                    return (
+                      <Anchor className="tech-link" key={index}>
+                        {" "}
+                        #{tech}
+                      </Anchor>
+                    );
                   })}
                 </section>
               </article>
             );
           })}
+        </div>
+      </div>
+      <div>
+        <p className="projects-title">Certificates</p>
+        <p className="discription">My awarding list.</p>
+      </div>
+      <div className="certificates-container">
+        {Certificates.map((certificate, index) => {
+          return (
+            <figure className="figure-certificates" key={index}>
+              <Img
+                className="certificate-image"
+                src={certificate.src}
+                alt={certificate.alt}
+              />
+            </figure>
+          );
+        })}
+      </div>
+      <div>
+        <p className="projects-title">Contact</p>
+        <div className="flex">
+          <p className="discription">
+            You can reach out to me through contact@mawuena.me. As will as{" "}
+          </p>
+          <Link to="https://github.com/devnullone">
+            <LinkedInIcon />
+          </Link>
+          <Link to="https://twitter.com/devnullone">
+            <TwitterIcon />
+          </Link>
+        </div>
+      </div>
+      <div className="footer">
+        <div className="left">copyright @2023 Zuhaa Abdullah</div>
+        <div className="right">
+          <Anchor href="/" className="footer-link">Home</Anchor> <span>|</span> <Anchor className="footer-link" href="/blogs">Blogs</Anchor>
         </div>
       </div>
     </div>

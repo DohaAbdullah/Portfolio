@@ -1,0 +1,23 @@
+[
+  {
+    
+    "src": "images/Coursera Python for Automation NZTN6Z3DSGE3_page-0001.jpg",
+    "alt" : "coursera-python"
+  },
+  {
+    "src": "images/Fortinet NSE_2_Certification_page-0001.jpg",
+    "alt": "fortniet"
+  },
+  {
+    "src": "images/Adtrans ASPv WLAN Cert_page-0001.jpg",
+    "alt": "asp"
+  },
+  {
+    "src": "images/CERTIFICATION MICROSOFT AZ900_page-0001.jpg",
+    "alt": "microsoft"
+  },
+  {
+    "src": "images/Adtrans Bluesocket Cert_page-0001.jpg",
+    "alt": "bluesocket"
+  }
+]

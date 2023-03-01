@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "src": "images/194555927-9c107aef-3682-4af5-b712-fe9478930b4e.png",
+    "src": "images/mediarepo.png",
     "href": "https://medirepo.vercel.app/patients/login",
     "alt": "mediarepo-pic",
     "title": "Media Repo",
@@ -24,6 +24,6 @@
     "alt": "pakriti",
     "title": "Pakriti",
     "description": "A Holistic simple online avatar generator. I made it to easily help people to make avatars look like them and show up on their social media profiles.",
-    "technologies": ["Flask", "JQuery", "Tailwindwss"]
+    "technologies": ["Flask ", "JQuery ", "Tailwindwss"]
   }
 ]

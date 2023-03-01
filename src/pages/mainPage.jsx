@@ -11,18 +11,17 @@ import Anchor from "../common/a";
 import Certificates from "../certificatesData.json";
 import Contact from "../pages/contact";
 
-
 function MainPage() {
   return (
     <div className="container">
       <p className="name">MAWUENA M KODZO</p>
       <p className="title">Personal website & blog </p>
       <div className="content">
-        <p className="about-me-title">About me</p>
+        <p className="sub-title">About me</p>
         <p>
-          My name is Mawuena M Kodzo, I am from Togo I’m a full stack software
+          My name is Mawuena M Kodzo, I am from Togo I'm a full stack software
           engineer specializing in designing and/or building exceptional digital
-          experiences. I’m studying for my DUT Exams, and to take Azure and
+          experiences. I'm studying for my DUT Exams, and to take Azure and
           Cisco CCNA certs. I'm working currently on SmartBin. You can find me
           on
           <Link to="https://github.com/devnullone">
@@ -106,7 +105,7 @@ function MainPage() {
           </tbody>
         </table>
         <div className="blogs">
-          <p className="blog-title">Blog Posts</p>
+          <p className="sub-title">Blog Posts</p>
           <p className="discription">Here's some blogs that I have wrote.</p>
           <ul>
             <li className="blog-list">

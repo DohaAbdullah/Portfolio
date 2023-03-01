@@ -3,7 +3,7 @@ import React from "react";
 function GithubIcon(props) {
   return (
     <svg
-    className="githubicon"
+     className="githubicon"
       xmlns="http://www.w3.org/2000/svg"
       width="20"
       height="15"

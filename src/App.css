@@ -177,3 +177,107 @@ li {
   color: #666;
   font-size: 0.9em;
 }
+
+/* For Desktop View */
+@media (max-width: 820px) {
+  body {
+    padding: 3em;
+  }
+
+  p {
+    font-size: 0.3em;
+    padding: 0;
+  }
+
+  li {
+    font-size: 0.3em;
+  }
+
+  .name {
+    font-size: 0.9em;
+  }
+
+  .title {
+    font-size: 0.4em;
+  }
+
+  .sub-title {
+    font-size: 0.7em;
+    margin: 0;
+  }
+
+  .githubicon,
+  .TwitterIcon,
+  .linkedinIcon {
+    padding-top: 7px;
+    padding-left: 5px;
+    width: 10px;
+    height: 7px;
+  }
+
+  .td {
+    font-size: 0.3em;
+  }
+
+  .tr {
+    width: 20%;
+  }
+
+  .table-data {
+    font-size: 0.3em;
+    margin-top: 10px;
+  }
+
+  .icon-style {
+    width: 7px;
+    height: 7px;
+  }
+
+  .blogs {
+    margin-top: 0;
+  }
+
+  .discription {
+    font-size: 10px;
+  }
+
+  .blog-list {
+    font-size: 0.3em;
+  }
+
+  time {
+    font-size: 0.3em;
+  }
+
+  .blog-link {
+    font-size: 0.3em;
+  }
+}
+
+/* For Tablet View */
+@media  (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+
+/* For Mobile Portrait View */
+@media  (max-device-width: 480px) and (orientation: portrait) {
+}
+
+/* For Mobile Landscape View */
+@media  (max-device-width: 640px) and (orientation: landscape) {
+}
+
+/* For Mobile Phones Portrait or Landscape View */
+@media  (max-device-width: 640px) {
+}
+
+/* For iPhone 4 Portrait or Landscape View */
+@media (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+}

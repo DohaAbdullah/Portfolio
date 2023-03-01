@@ -3,7 +3,7 @@ import React from "react";
 function LinkedInIcon() {
   return (
     <svg
-    className="linkedinIcon"
+      className="linkedinIcon"
       xmlns="http://www.w3.org/2000/svg"
       width="20"
       height="15"

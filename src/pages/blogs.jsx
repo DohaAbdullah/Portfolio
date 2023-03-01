@@ -334,6 +334,7 @@ function Blogs() {
         {blogsData.map((blog, index) => {
           return <Li key={index}>
             <Time>{blog.dateTime}</Time>
+            <span> </span>
             <Anchor href={blog.href} >{blog.blogTitle}</Anchor>
           </Li>;
         })}

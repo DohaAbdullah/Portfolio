@@ -9,6 +9,8 @@ import Projects from "../projectsdata.json";
 import Img from "../common/img";
 import Anchor from "../common/a";
 import Certificates from "../certificatesData.json";
+import Contact from "../pages/contact";
+
 
 function MainPage() {
   return (
@@ -191,7 +193,7 @@ function MainPage() {
         </div>
 
         <div className="projects">
-          <p className="projects-title">Projects</p>
+          <p className="sub-title">Projects</p>
 
           <div className="github-icon-container">
             <p className="discription">You can find all my projects here</p>
@@ -225,7 +227,7 @@ function MainPage() {
         </div>
       </div>
       <div>
-        <p className="projects-title">Certificates</p>
+        <p className="sub-title">Certificates</p>
         <p className="discription">My awarding list.</p>
       </div>
       <div className="certificates-container">
@@ -241,26 +243,7 @@ function MainPage() {
           );
         })}
       </div>
-      <div>
-        <p className="projects-title">Contact</p>
-        <div className="flex">
-          <p className="discription">
-            You can reach out to me through contact@mawuena.me. As will as{" "}
-          </p>
-          <Link to="https://github.com/devnullone">
-            <LinkedInIcon />
-          </Link>
-          <Link to="https://twitter.com/devnullone">
-            <TwitterIcon />
-          </Link>
-        </div>
-      </div>
-      <div className="footer">
-        <div className="left">copyright @2023 Zuhaa Abdullah</div>
-        <div className="right">
-          <Anchor href="/" className="footer-link">Home</Anchor> <span>|</span> <Anchor className="footer-link" href="/blogs">Blogs</Anchor>
-        </div>
-      </div>
+      <Contact />
     </div>
   );
 }

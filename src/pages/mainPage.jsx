@@ -23,7 +23,7 @@ function MainPage() {
           engineer specializing in designing and/or building exceptional digital
           experiences. I'm studying for my DUT Exams, and to take Azure and
           Cisco CCNA certs. I'm working currently on SmartBin. You can find me
-          on
+          on{" "}
           <Link to="https://github.com/devnullone">
             <GithubIcon />
           </Link>{" "}
@@ -31,11 +31,12 @@ function MainPage() {
           <Link to="https://github.com/devnullone">
             <LinkedInIcon />
           </Link>{" "}
-          or on
+          and on
           <Link to="https://twitter.com/devnullone">
             <TwitterIcon />
           </Link>
         </p>
+
         <p>
           I really enjoy coumputer stuff, building, deploy app and maintain
           them. I love FOSS projects. Opensource bring me on software
@@ -190,7 +191,6 @@ function MainPage() {
             Show More blogs ...
           </a>
         </div>
-
         <div className="projects">
           <p className="sub-title">Projects</p>
 

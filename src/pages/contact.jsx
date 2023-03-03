@@ -5,6 +5,10 @@ import Anchor from "../common/a";
 
 
 function Contact() {
+
+  const today = new Date();
+  const year = today.getFullYear();
+
   return (
     <div>
     
@@ -24,7 +28,7 @@ function Contact() {
         </div>
       </div>
       <div className="footer">
-        <div className="left">copyright @2023 Zuhaa Abdullah</div>
+        <div className="left">copyright @{year} Zuhaa A</div>
         <div className="right">
           <Anchor href="/" className="footer-link">
             Home

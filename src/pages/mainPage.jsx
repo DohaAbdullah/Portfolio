@@ -18,24 +18,26 @@ function MainPage() {
       <p className="title">Personal website & blog </p>
       <div className="content">
         <p className="sub-title">About me</p>
-        <p>
-          My name is Mawuena M Kodzo, I am from Togo I'm a full stack software
-          engineer specializing in designing and/or building exceptional digital
-          experiences. I'm studying for my DUT Exams, and to take Azure and
-          Cisco CCNA certs. I'm working currently on SmartBin. You can find me
-          on{" "}
-          <Link to="https://github.com/devnullone">
-            <GithubIcon />
-          </Link>{" "}
-          ,
-          <Link to="https://github.com/devnullone">
-            <LinkedInIcon />
-          </Link>{" "}
-          and on
-          <Link to="https://twitter.com/devnullone">
-            <TwitterIcon />
-          </Link>
-        </p>
+        <div className="flex-container">
+          <p>
+            My name is Mawuena M Kodzo, I am from Togo I'm a full stack software
+            engineer specializing in designing and/or building exceptional
+            digital experiences. I'm studying for my DUT Exams, and to take
+            Azure and Cisco CCNA certs. I'm working currently on SmartBin. You
+            can find me on{" "}
+            <Link to="https://github.com/devnullone">
+              <GithubIcon className="icon-github-wrapper" />
+            </Link>{" "}
+            ,
+            <Link to="https://github.com/devnullone">
+              <LinkedInIcon className="icon-linkedin-wrapper" />
+            </Link>{" "}
+            and on
+            <Link to="https://twitter.com/devnullone">
+              <TwitterIcon className="icon-twetter-wrapper" />
+            </Link>
+          </p>
+        </div>
 
         <p>
           I really enjoy coumputer stuff, building, deploy app and maintain

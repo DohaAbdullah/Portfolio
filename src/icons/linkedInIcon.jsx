@@ -1,9 +1,9 @@
 import React from "react";
 
-function LinkedInIcon() {
+function LinkedInIcon(props) {
   return (
     <svg
-      className="linkedinIcon"
+      className={`linkedinIcon ${props.className || ""}`}
       xmlns="http://www.w3.org/2000/svg"
       width="20"
       height="15"

@@ -41,6 +41,10 @@ function Contact() {
           <Anchor className="footer-link" href="/contact">
             Contact
           </Anchor>
+          <span>|</span>{" "}
+          <Anchor className="footer-link" href="/resume">
+            Resume
+          </Anchor>
         </div>
       </div>
     </div>

@@ -3,6 +3,7 @@ import Resume from "../components/resume";
 import Blogs from "../pages/blogs";
 import Contact from "../pages/contact";
 import MainPage from "../pages/mainPage";
+import PdfViewer from "../components/pdfViewer";
 
 function AppRoutes(props) {
   return (
@@ -11,6 +12,7 @@ function AppRoutes(props) {
       <Route path="/blogs" element={<Blogs />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/resume" element={<Resume />} />
+      <Route path="/viewer" element={<PdfViewer />} />
     </Routes>
   );
 }

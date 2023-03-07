@@ -11,8 +11,8 @@ function AppRoutes(props) {
       <Route path="/" element={<MainPage />} />
       <Route path="/blogs" element={<Blogs />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/resume" element={<Resume />} />
-      <Route path="/viewer" element={<PdfViewer />} />
+      {/* <Route path="/resume" element={<Resume />} /> */}
+      <Route path="/download" element={<PdfViewer pdf="resume.pdf" />} />
     </Routes>
   );
 }

@@ -42,7 +42,7 @@ function Contact() {
             Contact
           </Anchor>
           <span>|</span>{" "}
-          <Anchor className="footer-link" href="/resume">
+          <Anchor className="footer-link" href="/download">
             Resume
           </Anchor>
         </div>
